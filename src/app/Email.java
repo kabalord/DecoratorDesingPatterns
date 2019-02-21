@@ -16,6 +16,7 @@ public class Email {
     }
 
     public String getText() {
+
         return text;
     }
 

@@ -9,6 +9,6 @@ public class BonjourDecorator extends EmailDecorator{
     }
 
     public String send() {
-        return "Bonjour Madame, Monsieur" + email.send();
+        return "Bonjour Madame, Monsieur " + email.send();
     }
 }

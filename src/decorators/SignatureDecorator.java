@@ -8,6 +8,6 @@ public class SignatureDecorator extends EmailDecorator{
     }
 
     public  String send(){
-        return email.send() + "signature ajoutée automatiquement";
+        return email.send() + " signature ajoutée automatiquement";
     }
 }
